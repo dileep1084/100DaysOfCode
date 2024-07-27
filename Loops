@@ -1,0 +1,25 @@
+public class Loops {
+    public static void main(String args[]){
+        for(int num = 0; num<=10; num++){
+        System.out.println(num);
+        }
+
+        int i = 0;
+        while(i<=10){
+            System.out.println(i);
+            i++;
+        }
+
+    int i = 0;
+    do{
+        System.out.println(i);
+        i++;
+    }while(i<=10);
+
+    int i = 12;
+    do{
+        System.out.println("Dileep Kumar");  // Minimum one time rum do while code
+        i++;
+    }while(i<=11);
+  }
+}
